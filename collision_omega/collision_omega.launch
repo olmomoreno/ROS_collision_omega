@@ -1,0 +1,8 @@
+<launch>
+   <node pkg="rviz" type="rviz" name="rviz"/>
+   <node pkg="collision_omega" type="collision_engine_omega_exe" name="collision_engine_omega"/>
+   <node pkg="collision_omega" type="omega_engine_exe" name="omega_engine"/>
+   <node pkg="using_markers_collision" type="marker_array_collision_exe" name="marker_array_collision"/>
+</launch>
+
+

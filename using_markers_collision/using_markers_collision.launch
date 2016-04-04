@@ -1,0 +1,7 @@
+<launch>
+   <node pkg="rviz" type="rviz" name="rviz"/>
+   <node pkg="using_markers_collision" type="marker_array_collision_exe" name="marker_array_collision"/>
+   <node pkg="using_markers_collision" type="collision_engine_exe" name="collision_engine"/>
+</launch>
+
+
